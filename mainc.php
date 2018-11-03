@@ -39,7 +39,7 @@
 
   	.container-fluid{
   background-color: #a3bbe0;
-
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.2'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
   </style>
    <script type="text/javascript">
@@ -62,12 +62,12 @@ app.config(function($routeProvider) {
 </head>
 <body class="container-fluid" ng-app="myApp" >
 
-<div class="row" style="padding-top: 0px;">
+<div class="row" style="margin-top: 15px;">
 	<div class="col-lg-2 animated bounceInDown " style=" padding-top:5px;  " >
-<div  style="background-color: #111428;padding-bottom: 5px;padding-top: 15px;">
+<div  style="background-color: #111428;padding-bottom: 5px;padding-top: 10px;">
 		<center>
 		<img src="images/oscar.png" style="height: 80px;width: 80px;border: 2px solid gray;padding: 2px; background-color: white;" class="img-circle">
-		<h4 style="color:white;font-family: 'Times New Romen';font-weight: bold;">Saurabh solkar <br> <span class="glyphicon glyphicon-cog" style="font-size: 20px;"></span></h4>
+		<h4 style="color:white;font-family: 'Times New Romen';font-weight: bold;">Saurabh solkar<span class="glyphicon glyphicon-cog" style="font-size: 20px;"></span></h4>
 
 	
 	</center>
@@ -89,23 +89,17 @@ app.config(function($routeProvider) {
 	
 	<div class="col-lg-10 animated bounceInRight "  >
 
-  <div class="container-fluid" style="background-color:#1e3a68;padding: 10px;color: white;">
+  <div class="container-fluid" style="background-color:#1e3a68;padding: 10px;">
   <center><span class="fas fa-wallet" style="float: left;font-size: 20px;" > : 4000</span></center>
-  <div> <span class="glyphicon glyphicon-user" style="float: right;font-size: 20px;"> <p>Saurabh solkar </p></span>
-  </div>
+   <span class="glyphicon glyphicon-user" style="float: right;font-size: 20px;"> <p>Saurabh solkar</p></span>
+  
     
     </div>
 
 
 
 	</div>
-  <div class="panel panel-default">
-
-  <div class="panel-body">
-    <div ng-view></div>
-  </div>
-</div>
-
+<div ng-view></div>
 </div>
 </body>
 </html>

@@ -42,6 +42,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .table tr th {border-left: 1px solid black!important;}
 .table tr td:nth-child(1), 
 .table tr th:nth-child(1) {border-left: 0!important;}
+
+#r{
+	margin-top: 5px;
+}
+
+
+#i{
+	margin-top: 5px;
+}
+
   </style>
 </head>
 <body class="container">
